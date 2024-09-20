@@ -1,0 +1,315 @@
+    1  conda create -n ml python=3.11
+    2  conda activate ml
+    3  nvidia-smi
+    4  exit
+    5  apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+    6  su
+    7  sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+    8  sudo bash Miniconda3-latest-Linux-x86_64.sh
+    9  mkdir -p ~/miniconda3
+   10  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+   11  bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+   12  rm -rf ~/miniconda3/miniconda.sh
+   13  ~/miniconda3/bin/conda init bash
+   14  ~/miniconda3/bin/conda init zsh
+   15  bash
+   16  sudo apt-get update
+   17  sudo apt-get install wget ca-certificates
+   18  code .
+   19  ls
+   20  ls -l
+   21  pwd
+   22  cd
+   23  l
+   24  cd qwe
+   25  code.
+   26  exit
+   27  cd
+   28  ls
+   29  cd /mnt/c
+   30  ls
+   31  cd /mnt/d
+   32  ls
+   33  cd /mnt/e/Share
+   34  ls
+   35  cd Projects/
+   36  ls
+   37  cd PytLab
+   38  ls
+   39  code .
+   40  python
+   41  cd ..
+   42  mkdir -p ~/miniconda3
+   43  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+   44  bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+   45  rm -rf ~/miniconda3/miniconda.sh
+   46  ~/miniconda3/bin/conda init bash
+   47  ~/miniconda3/bin/conda init zsh
+   48  cd Projects/PytLab
+   49  bash Miniconda3-latest-Linux-x86_64.sh
+   50  conda
+   51  conda list
+   52  pip install pandas
+   53  git lfs install
+   54  пше
+   55  git
+   56  git lfs
+   57  cd /mnt/d/Models/
+   58  git clone https://github.com/oobabooga/text-generation-webui
+   59  ls
+   60  cd text-generation-webui/
+   61  ls
+   62  start_wsl.bat
+   63  sh start_wsl.bat
+   64  sh start_linux.sh
+   65  apt-get update
+   66  sudo apt-get update
+   67  sudo apt-get install build-essential 
+   68  cd ..
+   69  sh script.deb.sh 
+   70  sh script.deb.sh
+   71  script.deb.sh
+   72  sudo bash script.deb.sh 
+   73  sudo apt-get install git-lfs
+   74  git lfs install
+   75  git clone https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct
+   76  cd text-generation-webui/
+   77  sh start_linux.sh 
+   78  sudo sh start_linux.sh 
+   79  sudo sh cmd_linux.sh 
+   80  cd ..
+   81  git clone https://github.com/DOGEwbx/llama.cpp.git
+   82  cd llama.cpp/
+   83  ls
+   84  git checkout regex_gpt2_preprocess
+   85  make
+   86  python -m pip install -r requirements.txt
+   87  python convert-hf-to-gguf.py /mnt/d/Models/deepseek-coder-33b-instruct --outfile /mnt/d/Models/deepseek-coder-33b-instruct-gguf --model-name deepseekcoder
+   88  pip install torch torchvision torchaudio
+   89  python convert-hf-to-gguf.py /mnt/d/Models/deepseek-coder-33b-instruct --outfile /mnt/d/Models/deepseek-coder-33b-instruct-gguf --model-name deepseekcoder
+   90  python convert-hf-to-gguf.py /mnt/d/Models/deepseek-coder-33b-instruct --outfile /mnt/d/Models/deepseek-coder-33b-instruct.gguf --model-name deepseekcoder
+   91  pip install -r requirements.txt
+   92  pip install transformers
+   93  python convert-hf-to-gguf.py /mnt/d/Models/deepseek-coder-33b-instruct --outfile /mnt/d/Models/deepseek-coder-33b-instruct.gguf --model-name deepseekcoder
+   94  sudo python convert-hf-to-gguf.py /mnt/d/Models/deepseek-coder-33b-instruct --outfile /mnt/d/Models/deepseek-coder-33b-instruct.gguf --model-name deepseekcoder
+   95  /bin/python3 /home/ded/Web/main.py
+   96  pip install fastapi[all] sqlalchemy databases 
+   97  uvicorn main:app
+   98  sudo -u postgres psql
+   99  sudo -u postgres -c '\x' -c 'SELECT * FROM users'
+  100  sudo -u postgres psql -c '\x' -c 'SELECT * FROM users'
+  101  sudo -u postgres psql
+  102  git config
+  103  git config --global user.name "DedMokus"
+  104  git config --global user.email pavllebd1998@mail.ru
+  105  /bin/python3 /home/ded/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/ded/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt
+  106  shutdown
+  107  sudo shutdown
+  108  sudo shutdown now
+  109  docker-compose up
+  110  /bin/python3 /home/ded/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/printEnvVariablesToFile.py /home/ded/.vscode-server/extensions/ms-python.python-2024.6.0/python_files/deactivate/bash/envVars.txt
+  111  cd
+  112  ls
+  113  cd MIET_ASM/
+  114  cd ASS_4_5/
+  115  gcc LAB4ASS.cpp -o lab4.exe
+  116  ls
+  117  cd
+  118  cd MIET_ASM/ASS_4_5/
+  119  gcc LAB4ASS.cpp -o lab4.exe
+  120  exit
+  121  ls
+  122  cd MIET_ASM/ASS_4_5/
+  123  gcc LAB4ASS.cpp -o lab4.ex
+  124  gcc LAB4ASS.cpp -o lab4.exe
+  125  g++ LAB4ASS.cpp -o lab4.exe 
+  126  lab4.exe
+  127  curl -I http://90.156.216.94/static/main/style.css
+  128  curl -I http://90.156.216.94:8000/static/main/style.css
+  129  curl  http://90.156.216.94:8000/static/main/style.css
+  130  curl http://90.156.216.94:8000/static/main/style.css
+  131  curl -I 90.156.216.94/static/main/style.css
+  132  curl -I 90.156.216.94:8000/static/main/style.css
+  133  curl -I 90.156.216.94/static/main/style.css
+  134  curl -I 90.156.216.94:8000/static/main/style.css
+  135  curl  90.156.216.94:8000/static/main/style.css
+  136  conda
+  137  conda create -n openmmlab python=3.7 -y
+  138  conda activate openmmlab
+  139  conda install pytorch=1.7.0 torchvision torchaudio cudatoolkit=10.2 -c pytorch
+  140  pip install openmim
+  141  mim install mmcv-full==1.6.1
+  142  mim install mmdet==2.25.1
+  143  git clone https://github.com/open-mmlab/mmrotate.git
+  144  cd mmrotate
+  145  pip install -r requirements/build.txt
+  146  pip install -v -e .
+  147  cd ../
+  148  git clone https://github.com/yuhongtian17/Spatial-Transform-Decoupling.git
+  149  cp -r Spatial-Transform-Decoupling/mmrotate-main/* mmrotate/
+  150  git clone https://github.com/CAPTAIN-WHU/DOTA_devkit.git
+  151  cd DOTA_devkit
+  152  sudo apt install swig
+  153  swig -c++ -python polyiou.i
+  154  python setup.py build_ext --inplace
+  155  cd ..
+  156  git clone https://github.com/xyuebai/ST_MobileV2.git
+  157  pip install timm
+  158  conda install torch
+  159  pip install torch
+  160  conda install pytorch
+  161  conda
+  162  conda list
+  163  conda 
+  164  conda remove pytorch
+  165  conda install pytorch
+  166  conda
+  167  conda create
+  168  conda create -n lm 
+  169  conda activate ml
+  170  conda install python
+  171  conda install pytorch timm
+  172  conda install pytorch
+  173  conda install torchvision torchaudio
+  174  pip install timm
+  175  pip install tensorflow pandas
+  176  pip install cv2
+  177  pip install opencv-python
+  178  pip install matplotlib
+  179  python -c "import cv2"
+  180  conda install opencv
+  181  pip
+  182  pip list
+  183  pip install
+  184  pip install opencv_python
+  185  loguru
+  186  tqdm
+  187  torchvision
+  188  thop
+  189  ninja
+  190  tabulate
+  191  psutil
+  192  tensorboard
+  193  pip install opencv_python loguru tqdm torchvision tensorboard 
+  194  pip install opencv_python loguru tqdm torchvision tensorboard torch 
+  195  pip install opencv_python loguru tqdm torchvision tensorboard torch  --no-cache-dir
+  196  sudo pip install opencv_python loguru tqdm torchvision tensorboard torch  --no-cache-dir
+  197  sudo pip install opencv_python  --no-cache-dir
+  198  pip install opencv_python  --no-cache-dir
+  199  pip list
+  200  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+  201  sudo apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+  202  su
+  203  sudo passwd root
+  204  su
+  205  pip install pillow
+  206  /bin/python3 /home/ded/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariablesToFile.py /home/ded/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/bash/envVars.txt
+  207  /home/ded/miniconda3/envs/openmmlab/bin/python /home/ded/.vscode-server/extensions/ms-python.python-2024.12.3-linux-x64/python_files/shell_exec.py conda install -c conda-forge --name openmmlab tensorboard -y /tmp/tmp-580QHMcboxkANoS.log
+  208  conda activate base
+  209  conda activate base
+  210  pip install kagglehub
+  211  zip
+  212  sudo apt install zip
+  213  zip
+  214  unzip
+  215  unzip archive.zip 
+  216  pip install tensorflow
+  217  pip install matplotlib
+  218  pip install opencv-python
+  219  shutdown
+  220  exit
+  221  pip install --extra-index-url=https://pypi.nvidia.com cudf-cu12==24.8.* dask-cudf-cu12==24.8.* cuml-cu12==24.8.* cugraph-cu12==24.8.* cuspatial-cu12==24.8.* cuproj-cu12==24.8.* cuxfilter-cu12==24.8.* cucim-cu12==24.8.* pylibraft-cu12==24.8.* raft-dask-cu12==24.8.* cuvs-cu12==24.8.*
+  222  pip install sklearn
+  223  pip install scikit-learn
+  224  python /home/ded/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/ded/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  225  pip install transformers
+  226  /bin/python3 /home/ded/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/ded/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
+  227  cd lab2/cd swap
+  228  cd lab2/swap
+  229  cd lab2/src/swap
+  230  gcc main.c -o lab2
+  231  gcc main.c -o swap
+  232  gcc main.c swap.c -o swap
+  233  ./swap
+  234  gcc main.c swap.c -o swap
+  235  ./swap
+  236  gcc main.c swap.c -o swap
+  237  ./swap
+  238  gcc main.c swap.c -o swap
+  239  ./swap
+  240  cd ..
+  241  cd revert_string/
+  242  gcc main.c revert_string.c -o revert
+  243  ./revert
+  244  ./revert qwe
+  245  gcc main.c revert_string.c -o revert
+  246  ./revert qwe
+  247  gcc main.c revert_string.c -o revert
+  248  ./revert qwe
+  249  gcc main.c revert_string.c -o revert
+  250  ./revert qwe
+  251  gcc main.c revert_string.c -o revert
+  252  ./revert qwe
+  253  gcc main.c revert_string.c -o revert
+  254  ./revert qwe
+  255  gcc main.c revert_string.c -o revert
+  256  ./revert qwe
+  257  gcc main.c revert_string.c -o revert
+  258  ./revert qwe
+  259  gcc main.c revert_string.c -o revert
+  260  ./revert qwe
+  261  gcc main.c revert_string.c -o revert
+  262  ./revert qwe
+  263  gcc main.c revert_string.c -o revert
+  264  ./revert qwe
+  265  gcc -c main.c -o bin/main.o
+  266  gcc -c revert_string.c -o bin/revert_string.o
+  267  ar rcs lib/revert_string.a bin/revert_string.o 
+  268  gcc -c main.c -o main.o
+  269  gcc -o main main.o -L lib/revert_string.a 
+  270  gcc -o main main.o -L. lib/revert_string.a 
+  271  gcc -c main.c -o main.o
+  272  ./main qwe
+  273  gcc -fPIC -c -o revert_string.o revert_string.c
+  274  gcc -shared -o revert_string.so revert_string.o
+  275  cp revert_string.so /usr/local/lib/revert_string.so
+  276  sudo cp revert_string.so /usr/local/lib/revert_string.so
+  277  sudo cp revert_string.h /usr/local/include/revert_string.h
+  278  gcc -c maina/main.c -o maina/main
+  279  ./maina/main
+  280  sudo ./maina/main qwe
+  281  sudo ./maina/main
+  282  cd maina/
+  283  ./main
+  284  cd ..
+  285  gcc -c maina/main.c -o maina/main
+  286  cd maina/
+  287  main
+  288  ./main
+  289  sudo ./main
+  290  cd ..
+  291  echo LD_LIBRARY_PATH
+  292  gcc -shared -o libreverse.so revert_string.c -Iinclude/
+  293  gcc main.c -o main
+  294  cd ..
+  295  gcc -fPIC -c revert_string/revert_string.c
+  296  gcc -shared -o librevert.so dinlib/revert_string.o 
+  297  cp librevert.so /usr/lib/librevert.so
+  298  sudo cp librevert.so /usr/lib/librevert.so
+  299  ldd
+  300  ldd addition
+  301  cd revert_string/
+  302  gcc -fPIC -c revert_string.c
+  303  gcc -shared -o librevert.so revert_string.o
+  304  gcc -o main_dyn main.o -L. -lrevert -Wl,-rpath,.
+  305  ./main_dyn 
+  306  ./main_dyn qwe
+  307  sudo apt -y install libcunit1 libcunit1-doc libcunit1-dev
+  308  cd ..
+  309  gcc -o tests tests/tests.c -L./revert_string -lrevert -Wl,-rpath,./revert_string/
+  310  gcc -o testing tests/tests.c -L./revert_string -lrevert -Wl,-rpath,./revert_string/
+  311  gcc -o testing tests/tests.c -L./revert_string -lrevert -Wl,-rpath,./revert_string/ -lcunit
+  312  ./testing 
+  313  history 
+  314  history => history.txt
+  315  history > history.txt
